@@ -1,0 +1,98 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom css */
+* {
+    box-sizing: border-box;
+}
+/* body */
+body {
+    background: url(../images/Dark-Sky.jpg) no-repeat;
+    background-size: cover;
+}
+/* flex */
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* header */
+.header {
+    text-align: center;
+    padding: 32px 0;
+}
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffff;
+}
+/* box-model */
+.box-model {
+    padding: 0 50px;
+}
+/* box */
+.box {
+    width: 400px;
+    height: 300px;
+    background-color: #FE0348;
+    padding: 135px 175px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 12px;
+}
+.box-two {
+    background: linear-gradient( to right, #282B22, #FE0348);
+}
+.box-three {
+    background: radial-gradient(#FE0348, #282B22);
+}
+/* photo */
+.photo {
+    text-align: center;
+    padding-top: 100px;
+}
+.photo img {
+    width: 1400px;
+    height: 450px;
+    border-radius: 12px;
+}
