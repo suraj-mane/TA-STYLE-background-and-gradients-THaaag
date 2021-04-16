@@ -49,6 +49,19 @@ table {
 body {
     background: url(../images/Dark-Sky.jpg) no-repeat;
     background-size: cover;
+    padding-bottom: 120px;
+    background-attachment: fixed;
+}
+/* container */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/* center */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* flex */
 .flex {
@@ -62,7 +75,7 @@ body {
     padding: 32px 0;
 }
 h1 {
-    font-size: 32px;
+    font-size: 48px;
     font-weight: 700;
     color: #ffff;
 }
@@ -72,13 +85,12 @@ h1 {
 }
 /* box */
 .box {
-    width: 400px;
+    width: 30%;
     height: 300px;
     background-color: #FE0348;
-    padding: 135px 175px;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
-    border-radius: 12px;
+    border-radius: 6px;
 }
 .box-two {
     background: linear-gradient( to right, #282B22, #FE0348);
@@ -86,13 +98,12 @@ h1 {
 .box-three {
     background: radial-gradient(#FE0348, #282B22);
 }
-/* photo */
-.photo {
-    text-align: center;
-    padding-top: 100px;
+/* secondary */
+.secondary {
+    margin-top: 60px;
 }
-.photo img {
-    width: 1400px;
-    height: 450px;
-    border-radius: 12px;
+.big-box {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to right bottom,transparent, rgba(237, 20, 60, 0.8)), url(../images/seacity.jpg) 50% 50% no-repeat;
 }
